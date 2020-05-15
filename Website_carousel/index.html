@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carousel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="carousel">
+        <div class="carousel_button">
+            <button class="carousel_button-left"><i class="fas fa-chevron-left fa-2x"></i></button>
+        </div>
+        <div class="carousel_track-container">
+            <ul class="carousel_track">
+                <li class="carousel_slide current-slide"><img class="carousel_images" src="img/bird1.jpg" alt=""></li>
+                <li class="carousel_slide"><img class="carousel_images" src="img/bird2.jpg" alt=""></li>
+                <li class="carousel_slide"><img class="carousel_images" src="img/bird3.jpg" alt=""></li>
+            </ul>
+            <div class="carousel_nav">
+                <button class="carousel_indicator current-slide"></button>
+                <button class="carousel_indicator"></button>
+                <button class="carousel_indicator"></button>
+            </div>
+        </div>
+        <div class="carousel_button">
+            <button class="carousel_button-right"><i class="fas fa-chevron-right fa-2x"></i></button>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="js/carousel.js"></script>
+
+</html>
